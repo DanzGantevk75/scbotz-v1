@@ -15,8 +15,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'LynXzy tidak aktif' : banned ? 'kamu dibanned' : 'ya?',
-                '©LynXzy🥀   ?',
+                isBanned ? '_DanzBot_tidak aktif' : banned ? 'kamu dibanned' : 'ya?',
+                '_DanzBot_🥀   _?_',
                 isBanned ? 'Unban' : banned ? 'Pemilik Bot' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Donasi',
@@ -36,9 +36,9 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═〘 𝐏𝐄𝐌𝐁𝐀𝐘𝐀𝐑𝐀𝐍 〙 ═
 ╠➥ TOPUP/PIN
-║- 60149431385 (Digi)
-║- 60189830350 (Umobile)
-╠═〘 LynXzy 〙 ═`.trim(), '©LynXzy🥀', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
+║- 6288270863279 (Digi)
+║- 6288270863279 (Umobile)
+╠═〘 DanzBot 〙 ═`.trim(), '_DanzBot_🥀', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
 }
 
     // salam
@@ -68,7 +68,7 @@ handler.all = async function (m, { isBlocked }) {
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Aktif selama ${uptime} ⏲️`).catch(_ => _)
+        await this.setStatus(`Im DanzBot🥀 | Aktif selama ${uptime} ⏲️`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
