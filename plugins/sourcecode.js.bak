@@ -1,11 +1,11 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => conn.sendButtonLoc(m.chat, await (await fetch(fla + 'Source code')).buffer(), `
-*────── 「 SCRIPT 」 ──────*
-Hai 👋
+Sc Ori (Enc) :
+http://github.com/LynnXzy/scbotz-v1
 
-Bot Ini Menggunakan Sc dari github
-Https://github.com/Drz103/RadBot
-`.trim(), '©souce code', 'Thanks', '.tqto')
+Sc Recode (No Enc) :
+Minta Ma Owner Gemratis:v
+`.trim(), '_DanzBot🥀_', 'Makasih', '.tqto')
 handler.help = ['donasi']
 handler.tags = ['info']
 handler.command = /^dona(te|si)$/i
