@@ -17,7 +17,7 @@ const anu = {
 			"groupJid": "6285240750713-1610340626@g.us",
 			"inviteCode": "mememteeeekkeke",
 			"groupName": "Grub Bot", 
-            "caption": "「 LynnXzy Broadcast💌 」", 
+            "caption": "「 DanzBot Broadcast 」", 
             'jpegThumbnail': fs.readFileSync('./src/IMG-20220324-WA1327.jpg')
 		}
 	}
