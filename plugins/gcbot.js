@@ -1,9 +1,9 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn, text }) => {
   let ext= `
-┌─〔 GRUB BOT 〕
+┌─〔 GRUB DANZBOT 〕
 │ 
-├➥ *✗Link grub bot by raditya*
+├➥ *MASUK GC DANZBOT!*
 │https://chat.whatsapp.com/KuW6Ojk8b3NF8GIpt9v4EL
 │https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK
 ├➥ *Yang Di Perbolehkan Oleh Owner Saya*
