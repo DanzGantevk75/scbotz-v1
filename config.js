@@ -54,8 +54,8 @@ global.APIKeys = { // APIKey Here
 const spack = fs.readFileSync("lib/exif.json")
 const stickerpack = JSON.parse(spack)
 if (stickerpack.spackname == '') {
-  var sticker_name = 'DanzBot🥀'
-  var sticker_author = 'DanzBot🥀    ?'
+  var sticker_name = '_DanzBot_🥀'
+  var sticker_author = '_DanzBot_🥀    _?_'
 } else {
   var sticker_name = stickerpack.spackname
   var sticker_author = stickerpack.sauthor
@@ -79,7 +79,7 @@ global.nsfw = '“Katakanlah kepada orang laki-laki yang beriman: Hendaklah mere
 global.eror = '_*Error Maap*_'
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&doScale=true&scaleWidth=500&scaleHeight=500&fontsize=100&fillTextType=0&backgroundColor=%23101820&text='
-global.watermark = 'DanzBot' //change the watermark (beberapa harus manual)
+global.watermark = '_DanzBot_🥀' //change the watermark (beberapa harus manual)
 
 // Ubah saja
 global.image = 'https://telegra.ph/file/a60af91a1c5b4e12967fd.jpg'//thumbnail
